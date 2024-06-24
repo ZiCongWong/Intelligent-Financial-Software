@@ -2,11 +2,10 @@
 
 # 智能财务-小绿记账APP
 
-一款基于OCR技术和ChatGPT的
+一款基于OCR技术和ChatGPT的记账uniapp应用程序
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -17,23 +16,24 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/ZiCongWong/Intelligent-Financial-Software">
+    <img src="https://github.com/ZiCongWong/Intelligent-Financial-Software/blob/main/static/login-register/icon.png" alt="Logo" width="80" height="80">
   </a>
-
-  <h3 align="center">"完美的"README模板</h3>
+  <h3 align="center">小绿记账</h3>
   <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
+    一款用VUE.js开发的uniapp，基于OCR技术和chatgpt的记账软件
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/ZiCongWong/Intelligent-Financial-Software"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template">查看Demo</a>
+    <a href="https://github.com/ZiCongWong/Intelligent-Financial-Software/tree/main/">查看Demo</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
+    <a href="https://github.com/ZiCongWong/Intelligent-Financial-Software/issues">报告Bug</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
+    <a href="https://github.com/ZiCongWong/Intelligent-Financial-Software/issues">提出新特性</a>
   </p>
+
+
 
 </p>
 
@@ -49,22 +49,14 @@
 - [开发的架构](#开发的架构)
 - [部署](#部署)
 - [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
 - [版本控制](#版本控制)
 - [作者](#作者)
-- [鸣谢](#鸣谢)
-
-### 上手指南
-
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
-
 
 
 ###### 开发前的配置要求
 
-1. xxxxx x.x.x
-2. xxxxx x.x.x
+1. 安装Node.js
+2. 安装HBuilder
 
 ###### **安装步骤**
 
@@ -72,7 +64,7 @@
 2. Clone the repo
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/ZiCongWong/Intelligent-Financial-Software.git
 ```
 
 ### 文件目录说明
@@ -80,21 +72,503 @@ eg:
 
 ```
 filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+├─.hbuilderx
+├─.idea
+├─components  //组件代码
+│  ├─banel
+│  ├─banelOld
+│  ├─certificate
+│  ├─choseitem
+│  ├─chosekind
+│  ├─cmd-progress
+│  ├─colhead
+│  ├─detailsnav
+│  ├─entry-message
+│  ├─evan-switch
+│  ├─fc
+│  ├─goodsitem
+│  ├─itemsprocess
+│  ├─monthbudget
+│  ├─monthchose
+│  ├─mynav
+│  ├─mynav2
+│  ├─navhead
+│  ├─navhead1
+│  ├─process
+│  ├─setPeriod
+│  ├─showConsumption
+│  ├─showRevenue
+│  ├─tabbar
+│  ├─tabbar2
+│  └─tabbar3
+├─contactus
+├─demo
+├─font  //字体文件
+├─node_modules
+│  ├─.bin
+│  ├─@babel
+│  ├─@vue
+│  │  ├─composition-api
+│  │  │  └─dist
+│  │  └─devtools-api
+│  │      └─lib
+│  │          ├─cjs
+│  │          │  └─api
+│  │          └─esm
+│  │              └─api
+│  ├─pinia
+│  │  └─dist
+│  ├─qweather-icons
+│  │  ├─font
+│  │  │  └─fonts
+│  │  └─icons
+│  ├─vue
+│  │  ├─dist
+│  │  ├─src
+│  │  │  ├─compiler
+│  │  │  │  ├─codegen
+│  │  │  │  ├─directives
+│  │  │  │  └─parser
+│  │  │  ├─core
+│  │  │  │  ├─components
+│  │  │  │  ├─global-api
+│  │  │  │  ├─instance
+│  │  │  │  │  └─render-helpers
+│  │  │  │  ├─observer
+│  │  │  │  ├─util
+│  │  │  │  └─vdom
+│  │  │  │      ├─helpers
+│  │  │  │      └─modules
+│  │  │  ├─platforms
+│  │  │  │  ├─web
+│  │  │  │  │  ├─compiler
+│  │  │  │  │  │  ├─directives
+│  │  │  │  │  │  └─modules
+│  │  │  │  │  ├─runtime
+│  │  │  │  │  │  ├─components
+│  │  │  │  │  │  ├─directives
+│  │  │  │  │  │  └─modules
+│  │  │  │  │  ├─server
+│  │  │  │  │  │  ├─directives
+│  │  │  │  │  │  └─modules
+│  │  │  │  │  └─util
+│  │  │  │  └─weex
+│  │  │  │      ├─compiler
+│  │  │  │      │  ├─directives
+│  │  │  │      │  └─modules
+│  │  │  │      │      └─recycle-list
+│  │  │  │      ├─runtime
+│  │  │  │      │  ├─components
+│  │  │  │      │  ├─directives
+│  │  │  │      │  ├─modules
+│  │  │  │      │  └─recycle-list
+│  │  │  │      └─util
+│  │  │  ├─server
+│  │  │  │  ├─bundle-renderer
+│  │  │  │  ├─optimizing-compiler
+│  │  │  │  ├─template-renderer
+│  │  │  │  └─webpack-plugin
+│  │  │  ├─sfc
+│  │  │  └─shared
+│  │  └─types
+│  ├─vue-demi
+│  │  ├─bin
+│  │  ├─lib
+│  │  │  ├─v2
+│  │  │  ├─v2.7
+│  │  │  └─v3
+│  │  └─scripts
+│  └─vuex
+│      ├─dist
+│      └─types
+├─pages  //页面前端代码
+│  ├─account-setting
+│  ├─binding-email
+│  ├─binding-phone
+│  ├─change-edition
+│  ├─change-edition2
+│  ├─clear-data
+│  ├─concerning
+│  ├─confirmbilling
+│  ├─confirmbilling2
+│  ├─confirmbilling3
+│  ├─consumption-analysis
+│  ├─consumption-details
+│  ├─contactus
+│  ├─details
+│  ├─details2
+│  ├─details3
+│  ├─email-login
+│  ├─export-data
+│  ├─forget-getCertificate
+│  ├─forget-id
+│  ├─forget-setPassword
+│  ├─Frequently-questions
+│  ├─get-certified
+│  ├─income-details
+│  ├─index
+│  ├─index2
+│  ├─index3
+│  ├─input
+│  ├─Launch
+│  ├─login
+│  ├─manual-entry
+│  ├─manual-entry2
+│  ├─manual-entry3
+│  ├─my
+│  ├─my2
+│  ├─my3
+│  ├─register
+│  ├─revenue-details
+│  ├─save-period
+│  ├─set-password
+│  ├─set-period
+│  ├─setting
+│  ├─statistics
+│  ├─statistics2
+│  ├─statistics3
+│  └─Tips-setting
+├─static  //图片资源
+│  ├─camera
+│  ├─consumption-detail
+│  ├─details3
+│  ├─login-register
+│  ├─manual-entry
+│  ├─my3
+│  ├─newTab
+│  ├─setting
+│  └─weather
+├─store
+├─uni_modules  //引用的组件
+│  ├─qiun-data-charts
+│  │  ├─components
+│  │  │  ├─qiun-data-charts
+│  │  │  ├─qiun-error
+│  │  │  └─qiun-loading
+│  │  ├─js_sdk
+│  │  │  └─u-charts
+│  │  └─static
+│  │      ├─app-plus
+│  │      └─h5
+│  ├─uni-data-select
+│  │  └─components
+│  │      └─uni-data-select
+│  ├─uni-datetime-picker
+│  │  └─components
+│  │      └─uni-datetime-picker
+│  │          └─i18n
+│  ├─uni-easyinput
+│  │  └─components
+│  │      └─uni-easyinput
+│  ├─uni-file-picker
+│  │  └─components
+│  │      └─uni-file-picker
+│  ├─uni-icons
+│  │  └─components
+│  │      └─uni-icons
+│  ├─uni-load-more
+│  │  └─components
+│  │      └─uni-load-more
+│  │          └─i18n
+│  ├─uni-popup
+│  │  └─components
+│  │      ├─uni-popup
+│  │      │  └─i18n
+│  │      ├─uni-popup-dialog
+│  │      ├─uni-popup-message
+│  │      └─uni-popup-share
+│  ├─uni-scss
+│  │  └─styles
+│  │      ├─setting
+│  │      └─tools
+│  └─uni-transition
+│      └─components
+│          └─uni-transition
+├─unpackage
+│  ├─cache
+│  │  ├─apk
+│  │  ├─cloudcertificate
+│  │  └─wgt
+│  │      └─__UNI__409E341
+│  │          ├─.manifest
+│  │          ├─font
+│  │          ├─static
+│  │          │  ├─camera
+│  │          │  ├─consumption-detail
+│  │          │  ├─details3
+│  │          │  ├─login-register
+│  │          │  ├─manual-entry
+│  │          │  ├─my3
+│  │          │  ├─newTab
+│  │          │  ├─setting
+│  │          │  └─weather
+│  │          └─uni_modules
+│  │              ├─qiun-data-charts
+│  │              │  └─static
+│  │              │      └─app-plus
+│  │              └─uni-icons
+│  │                  └─components
+│  │                      └─uni-icons
+│  ├─dist
+│  │  ├─build
+│  │  │  ├─.automator
+│  │  │  │  └─app-plus
+│  │  │  └─app-plus
+│  │  │      ├─font
+│  │  │      ├─static
+│  │  │      │  ├─camera
+│  │  │      │  ├─consumption-detail
+│  │  │      │  ├─details3
+│  │  │      │  ├─login-register
+│  │  │      │  ├─manual-entry
+│  │  │      │  ├─my3
+│  │  │      │  ├─newTab
+│  │  │      │  ├─setting
+│  │  │      │  └─weather
+│  │  │      └─uni_modules
+│  │  │          ├─qiun-data-charts
+│  │  │          │  └─static
+│  │  │          │      └─app-plus
+│  │  │          └─uni-icons
+│  │  │              └─components
+│  │  │                  └─uni-icons
+│  │  └─dev
+│  │      ├─.automator
+│  │      │  ├─app-plus
+│  │      │  └─mp-weixin
+│  │      ├─.sourcemap
+│  │      │  └─mp-weixin
+│  │      │      ├─common
+│  │      │      ├─components
+│  │      │      │  ├─banel
+│  │      │      │  ├─banelOld
+│  │      │      │  ├─certificate
+│  │      │      │  ├─choseitem
+│  │      │      │  ├─chosekind
+│  │      │      │  ├─cmd-progress
+│  │      │      │  ├─colhead
+│  │      │      │  ├─evan-switch
+│  │      │      │  ├─fc
+│  │      │      │  ├─goodsitem
+│  │      │      │  ├─itemsprocess
+│  │      │      │  ├─monthbudget
+│  │      │      │  ├─monthchose
+│  │      │      │  ├─mynav
+│  │      │      │  ├─mynav2
+│  │      │      │  ├─navhead
+│  │      │      │  ├─navhead1
+│  │      │      │  ├─process
+│  │      │      │  ├─setPeriod
+│  │      │      │  ├─showConsumption
+│  │      │      │  ├─showRevenue
+│  │      │      │  ├─tabbar
+│  │      │      │  ├─tabbar2
+│  │      │      │  └─tabbar3
+│  │      │      ├─pages
+│  │      │      │  ├─account-setting
+│  │      │      │  ├─binding-email
+│  │      │      │  ├─binding-phone
+│  │      │      │  ├─change-edition
+│  │      │      │  ├─change-edition2
+│  │      │      │  ├─clear-data
+│  │      │      │  ├─concerning
+│  │      │      │  ├─confirmbilling
+│  │      │      │  ├─confirmbilling2
+│  │      │      │  ├─confirmbilling3
+│  │      │      │  ├─consumption-analysis
+│  │      │      │  ├─consumption-details
+│  │      │      │  ├─contactus
+│  │      │      │  ├─details
+│  │      │      │  ├─details2
+│  │      │      │  ├─details3
+│  │      │      │  ├─email-login
+│  │      │      │  ├─export-data
+│  │      │      │  ├─forget-getCertificate
+│  │      │      │  ├─forget-id
+│  │      │      │  ├─forget-setPassword
+│  │      │      │  ├─Frequently-questions
+│  │      │      │  ├─get-certified
+│  │      │      │  ├─income-details
+│  │      │      │  ├─index
+│  │      │      │  ├─index2
+│  │      │      │  ├─index3
+│  │      │      │  ├─input
+│  │      │      │  ├─Launch
+│  │      │      │  ├─login
+│  │      │      │  ├─manual-entry
+│  │      │      │  ├─manual-entry2
+│  │      │      │  ├─manual-entry3
+│  │      │      │  ├─my
+│  │      │      │  ├─my2
+│  │      │      │  ├─my3
+│  │      │      │  ├─register
+│  │      │      │  ├─revenue-details
+│  │      │      │  ├─save-period
+│  │      │      │  ├─set-password
+│  │      │      │  ├─set-period
+│  │      │      │  ├─setting
+│  │      │      │  ├─statistics
+│  │      │      │  ├─statistics2
+│  │      │      │  ├─statistics3
+│  │      │      │  └─Tips-setting
+│  │      │      └─uni_modules
+│  │      │          ├─qiun-data-charts
+│  │      │          │  └─components
+│  │      │          │      ├─qiun-data-charts
+│  │      │          │      ├─qiun-error
+│  │      │          │      └─qiun-loading
+│  │      │          ├─uni-datetime-picker
+│  │      │          │  └─components
+│  │      │          │      └─uni-datetime-picker
+│  │      │          ├─uni-easyinput
+│  │      │          │  └─components
+│  │      │          │      └─uni-easyinput
+│  │      │          ├─uni-file-picker
+│  │      │          │  └─components
+│  │      │          │      └─uni-file-picker
+│  │      │          ├─uni-icons
+│  │      │          │  └─components
+│  │      │          │      └─uni-icons
+│  │      │          ├─uni-popup
+│  │      │          │  └─components
+│  │      │          │      └─uni-popup
+│  │      │          └─uni-transition
+│  │      │              └─components
+│  │      │                  └─uni-transition
+│  │      ├─app-plus
+│  │      │  ├─font
+│  │      │  ├─static
+│  │      │  │  ├─camera
+│  │      │  │  ├─consumption-detail
+│  │      │  │  ├─details3
+│  │      │  │  ├─login-register
+│  │      │  │  ├─manual-entry
+│  │      │  │  ├─my3
+│  │      │  │  ├─newTab
+│  │      │  │  ├─setting
+│  │      │  │  └─weather
+│  │      │  └─uni_modules
+│  │      │      ├─qiun-data-charts
+│  │      │      │  └─static
+│  │      │      │      └─app-plus
+│  │      │      └─uni-icons
+│  │      │          └─components
+│  │      │              └─uni-icons
+│  │      └─mp-weixin
+│  │          ├─common
+│  │          ├─components
+│  │          │  ├─banel
+│  │          │  ├─banelOld
+│  │          │  ├─certificate
+│  │          │  ├─choseitem
+│  │          │  ├─chosekind
+│  │          │  ├─cmd-progress
+│  │          │  ├─colhead
+│  │          │  ├─evan-switch
+│  │          │  ├─fc
+│  │          │  ├─goodsitem
+│  │          │  ├─itemsprocess
+│  │          │  ├─monthbudget
+│  │          │  ├─monthchose
+│  │          │  ├─mynav
+│  │          │  ├─mynav2
+│  │          │  ├─navhead
+│  │          │  ├─navhead1
+│  │          │  ├─process
+│  │          │  ├─setPeriod
+│  │          │  ├─showConsumption
+│  │          │  ├─showRevenue
+│  │          │  ├─tabbar
+│  │          │  ├─tabbar2
+│  │          │  └─tabbar3
+│  │          ├─font
+│  │          ├─pages
+│  │          │  ├─account-setting
+│  │          │  ├─binding-email
+│  │          │  ├─binding-phone
+│  │          │  ├─change-edition
+│  │          │  ├─change-edition2
+│  │          │  ├─clear-data
+│  │          │  ├─concerning
+│  │          │  ├─confirmbilling
+│  │          │  ├─confirmbilling2
+│  │          │  ├─confirmbilling3
+│  │          │  ├─consumption-analysis
+│  │          │  ├─consumption-details
+│  │          │  ├─contactus
+│  │          │  ├─details
+│  │          │  ├─details2
+│  │          │  ├─details3
+│  │          │  ├─email-login
+│  │          │  ├─export-data
+│  │          │  ├─forget-getCertificate
+│  │          │  ├─forget-id
+│  │          │  ├─forget-setPassword
+│  │          │  ├─Frequently-questions
+│  │          │  ├─get-certified
+│  │          │  ├─income-details
+│  │          │  ├─index
+│  │          │  ├─index2
+│  │          │  ├─index3
+│  │          │  ├─input
+│  │          │  ├─Launch
+│  │          │  ├─login
+│  │          │  ├─manual-entry
+│  │          │  ├─manual-entry2
+│  │          │  ├─manual-entry3
+│  │          │  ├─my
+│  │          │  ├─my2
+│  │          │  ├─my3
+│  │          │  ├─register
+│  │          │  ├─revenue-details
+│  │          │  ├─save-period
+│  │          │  ├─set-password
+│  │          │  ├─set-period
+│  │          │  ├─setting
+│  │          │  ├─statistics
+│  │          │  ├─statistics2
+│  │          │  ├─statistics3
+│  │          │  └─Tips-setting
+│  │          ├─static
+│  │          │  ├─camera
+│  │          │  ├─consumption-detail
+│  │          │  ├─details3
+│  │          │  ├─login-register
+│  │          │  ├─manual-entry
+│  │          │  ├─my3
+│  │          │  ├─newTab
+│  │          │  ├─setting
+│  │          │  └─weather
+│  │          └─uni_modules
+│  │              ├─qiun-data-charts
+│  │              │  └─components
+│  │              │      ├─qiun-data-charts
+│  │              │      ├─qiun-error
+│  │              │      └─qiun-loading
+│  │              ├─uni-datetime-picker
+│  │              │  └─components
+│  │              │      └─uni-datetime-picker
+│  │              ├─uni-easyinput
+│  │              │  └─components
+│  │              │      └─uni-easyinput
+│  │              ├─uni-file-picker
+│  │              │  └─components
+│  │              │      └─uni-file-picker
+│  │              ├─uni-icons
+│  │              │  └─components
+│  │              │      └─uni-icons
+│  │              ├─uni-popup
+│  │              │  └─components
+│  │              │      └─uni-popup
+│  │              └─uni-transition
+│  │                  └─components
+│  │                      └─uni-transition
+│  ├─release
+│  │  └─apk
+│  ├─res
+│  │  └─icons
+│  └─resources
+└─util
 
 ```
 
@@ -104,34 +578,13 @@ filetree
 
 ### 开发的架构 
 
-请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
-
 ### 部署
 
-暂无
+HBuilder打开即可查看软件仿真
 
 ### 使用到的框架
 
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
-
-### 贡献者
-
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
-
-#### 如何参与开源项目
-
-贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
-
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
+- VUE.js
 
 ### 版本控制
 
@@ -139,40 +592,16 @@ filetree
 
 ### 作者
 
-xxx@xxxx
+1430095521@qq.com
 
-知乎:xxxx  &ensp; qq:xxxxxx    
+hzc6665@gmail.com
 
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
+qq:1430095521
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
-
-### 鸣谢
-
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
-
-<!-- links -->
-[your-project-path]:shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/shaojintian
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/ZiCongWong/Intelligent-Financial-Software/blob/main/LICENSE)
 
 
 
+[license-url]: 

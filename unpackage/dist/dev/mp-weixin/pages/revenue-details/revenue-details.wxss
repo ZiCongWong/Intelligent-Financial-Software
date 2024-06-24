@@ -1,0 +1,8 @@
+
+.main {
+	width: 750rpx;
+	height: 1600rpx;
+	background-color: #3bceb1;
+}
+
+

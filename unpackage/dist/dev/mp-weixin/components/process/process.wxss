@@ -1,0 +1,41 @@
+
+.process-box.data-v-38bf0238 {
+  position: relative;
+  width: 600rpx;
+  margin-left: 10rpx;
+  height: 16rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.process.data-v-38bf0238 {
+  transition: all 0.6s; 
+  height: 16rpx;
+}
+.value-box.data-v-38bf0238 {
+  position: relative;
+  transition: all 0.6s; 
+  color: #fff;
+  width: 100rpx;
+  height: 40rpx;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  border-radius: 10rpx;
+}
+.trangle.data-v-38bf0238 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  bottom: -18rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 10rpx solid red;
+  border-bottom: 10rpx solid transparent;
+  border-right: 10rpx solid transparent;
+  border-left: 10rpx solid transparent;
+}
+

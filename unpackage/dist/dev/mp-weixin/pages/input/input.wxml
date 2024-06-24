@@ -1,0 +1,1 @@
+<view class="con">input<tabbar vue-id="3f0211aa-1" state="{{state}}" bind:__l="__l"></tabbar></view>

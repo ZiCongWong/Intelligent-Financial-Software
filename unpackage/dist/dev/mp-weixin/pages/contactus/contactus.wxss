@@ -1,0 +1,46 @@
+
+.con.data-v-730d9178 {
+  padding: 30rpx;
+}
+.main.data-v-730d9178 {
+  background-color: #fff;
+  height: 460rpx;
+  padding: 30rpx;
+  border-radius: 20rpx;
+  opacity: 1;
+  box-shadow: 0 20rpx 60rpx 4rpx rgba(59, 206, 177, 0.2)
+}
+.head-right.data-v-730d9178 {
+  display: flex;
+  justify-content: flex-end;
+}
+.head-right image.data-v-730d9178 {
+  width: 77rpx;
+  height: 59rpx;
+}
+.logo.data-v-730d9178 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60rpx;
+}
+.logo image.data-v-730d9178 { 
+  width: 120rpx;
+  height: 120rpx;
+}
+.logo ._p.data-v-730d9178 {
+  color: rgba(60, 207, 177, 1);
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-left: 20rpx;
+}
+.tip.data-v-730d9178 {
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.phone.data-v-730d9178,.weichart.data-v-730d9178 {
+  display: flex;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+

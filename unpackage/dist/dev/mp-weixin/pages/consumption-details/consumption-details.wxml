@@ -1,0 +1,1 @@
+<view><view class="main"><show-consumption class="details" vue-id="e3cb0944-1" billsId="{{billsId}}" count="{{count}}" imgurl="{{imgurl}}" merchants="{{merchants}}" method="{{method}}" note="{{note}}" time="{{time}}" type="{{type}}" productList="{{productList}}" mode="{{mode}}" picture="{{picture}}" bind:__l="__l"></show-consumption></view></view>

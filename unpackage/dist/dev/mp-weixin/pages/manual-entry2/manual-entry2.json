@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "录入",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#3bceb1",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "goodsitem": "/components/goodsitem/goodsitem",
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker"
+  }
+}

@@ -1,0 +1,193 @@
+
+.money {
+		width: 750rpx;
+		height: 271rpx;
+		display: flex;
+		justify-content: center;
+		z-index: 1;
+		padding-top: 140rpx;
+}
+.money-card {
+		background-color: #ffffff;
+		width: 690rpx;
+		height: 271rpx;
+		border-radius: 20rpx;
+		display: flex;
+		justify-content: center;
+		border-bottom: 2rpx dashed #ccc;
+}
+.table {
+		display: flex;
+		justify-content: center;
+		width: 750rpx;
+		height: 190rpx;
+		z-index: 2;
+		position: absolute;
+		top: 40rpx;
+}
+.icon {
+		display: flex;
+		justify-content: center;
+		width: 170rpx;
+		height: 170rpx;
+		background-color: #ffffff;
+		border-radius: 50%;
+		border: 10rpx solid #3bceb1;
+}
+.logo {
+		width: 130rpx;
+		height: 130rpx;
+		margin-top: 25rpx;
+}
+.detail {
+
+		width: 750rpx;
+		/* height: 870rpx; */
+		display: flex;
+		justify-content: center;
+
+		margin-top: 2rpx;
+}
+.detail-card {
+		background-color: #ffffff;
+		width: 690rpx;
+		/* height: 870rpx; */
+		border-radius: 20rpx;
+}
+.xijie {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 35rpx;
+}
+.detail-total {
+		margin: 70rpx 79rpx;
+}
+.hui {
+		font-family: "Alibaba_Medium";
+		color: rgba(153, 153, 153, 1);
+}
+.show {
+		width: 132rpx;
+		height: 132rpx;
+		opacity: 0.6;
+		border-radius: 6rpx;
+}
+.hei {
+		font-family: "Alibaba_Extra_bold";
+		color: rgba(51, 51, 51, 1);
+}
+.total {
+		display: flex;
+		justify-content: center;
+		margin-top: 65rpx;
+		font-size: 28rpx;
+}
+.total-tips {
+		font-family: "Alibaba_Medium";
+		color: rgba(153, 153, 153, 1);
+}
+.detail-money {
+		margin-top: 120rpx;
+}
+.little {
+		font-family: "Alibaba_Medium";
+		color: rgba(153, 153, 153, 1);
+		margin-bottom: 10rpx;
+}
+.big {
+    text-align: center;
+		font-family: "Alibaba_Extra_bold";
+		color: rgba(51, 51, 51, 1);
+		font-size: 50rpx;
+}
+.little-line {
+		display: flex;
+		justify-content: center;
+}
+.box {
+		display: flex;
+		justify-content: space-around;
+		padding: 60rpx 0;
+}
+.icons {
+		width: 120rpx;
+		height: 120rpx;
+}
+.container {
+
+
+		display: flex;
+		justify-content: center;
+		margin-top: 8rpx;
+		font-size: 28rpx;
+		font-family: "Alibaba_Medium";
+		color: rgba(255, 255, 255, 1);
+}
+.bt-box {
+		height: 90rpx;
+		display: flex;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+}
+.bt {
+		width: 344rpx;
+		color: rgba(51, 51, 51, 1);
+		font-size: 36rpx;
+		font-family: "Alibaba_Medium";
+}
+.bt-green {
+		width: 344rpx;
+		color: rgba(60, 207, 177, 1);
+		font-size: 36rpx;
+		font-family: "Alibaba_Medium";
+}
+.popup-p {
+		border-radius: 30rpx;
+}
+.pop {
+		border-radius: 30rpx;
+		background-color: rgba(255, 255, 255, 1);
+		width: 690rpx;
+		height: 312rpx;
+}
+.separated {
+		width: 2rpx;
+		height: 34.05rpx;
+		background-color: rgba(175, 175, 175, 1.0);
+		margin-top: 10rpx;
+}
+.text-pop {
+		width: 690rpx;
+		height: 206rpx;
+		padding: 36rpx 50rpx;
+}
+.popup-title {
+		color: rgba(51, 51, 51, 1);
+		font-size: 36rpx;
+		font-family: "Alibaba_Medium";
+		margin-bottom: 32rpx;
+}
+.popup-tips {
+		color: rgba(51, 51, 51, 1);
+		font-size: 30rpx;
+		font-family: "Alibaba_Medium";
+}
+.goods {
+    margin: 25rpx 0;
+}
+.goods-items {
+    font-size: 28rpx;
+    margin: 10rpx 0;
+    padding: 10rpx 0;
+    border-bottom: 2rpx dashed #ccc;
+}
+.goods-items-head {
+    display: flex;
+    justify-content: space-between;
+}
+.goods-price {
+    display: flex;
+    justify-content: flex-end;
+}
+

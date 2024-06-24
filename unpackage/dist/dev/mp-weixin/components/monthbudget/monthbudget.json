@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "monthchose": "/components/monthchose/monthchose",
+    "cmdprogress": "/components/cmd-progress/cmd-progress"
+  }
+}

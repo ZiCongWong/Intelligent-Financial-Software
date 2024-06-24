@@ -1,0 +1,1 @@
+<view class="center-box"><set-period vue-id="4da80c00-1" bind:__l="__l"></set-period><set-period vue-id="4da80c00-2" bind:__l="__l"></set-period><set-period vue-id="4da80c00-3" bind:__l="__l"></set-period><set-period vue-id="4da80c00-4" bind:__l="__l"></set-period><view class="circle"></view></view>

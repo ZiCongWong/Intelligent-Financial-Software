@@ -1,0 +1,93 @@
+
+.tabbar-box.data-v-7ade9d30 {
+		display: flex;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		z-index: 99;
+		/* background-color: rgba(255, 255, 255, 1); */
+		justify-content: space-around;
+		align-items: center;
+		padding: 15rpx 0rpx 15rpx 0;
+		/* box-shadow: 10rpx 10rpx 20rpx #a2a2a2; */
+}
+.tabbar-img.data-v-7ade9d30 {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    height: 128rpx;
+    /* height: 30rpx; */
+}
+.tabbar-list-box.data-v-7ade9d30 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+.tabbar-list-box.data-v-7ade9d30:nth-child(4) {
+		margin: -100rpx -50rpx 0 -50rpx;
+}
+.tabbar-list-box:nth-child(4) image.data-v-7ade9d30 {
+		width: 120rpx;
+		height: 120rpx;
+		transition-duration: 0.3s;
+		transition-delay: 0.1s;
+		transition-timing-function: ease-in;
+}
+.rotate.data-v-7ade9d30 {
+		-webkit-transform: rotate(45deg);
+		        transform: rotate(45deg);
+}
+.img-icon.data-v-7ade9d30 {
+		width: 50rpx;
+		height: 50rpx;
+}
+.tabbar-text.data-v-7ade9d30 {
+		margin-top: 5rpx;
+		font-size: 35rpx;
+		font-weight: 600;
+}
+.mask.data-v-7ade9d30 {
+		font-size: 32rpx;
+		font-weight: 600;
+		position: absolute;
+		top: 150rpx;
+		text-align: center;
+		line-height: 75rpx;
+		border-radius: 10rpx;
+		transition: all 0.6s ease-in-out;
+		width: 151rpx;
+		z-index: 99;
+		height: 162rpx;
+}
+.manual-entry.data-v-7ade9d30 {
+		width: 151rpx;
+		height: 75rpx;
+		border-radius: 10rpx;
+		background-color: #ffffff;
+		color: rgba(59, 206, 177, 1);
+		box-shadow: 0 0 5rpx 2rpx #3bceb1;
+}
+.scan-entry.data-v-7ade9d30 {
+		width: 151rpx;
+		height: 75rpx;
+		color: #ffffff;
+		border-radius: 10rpx;
+		background-color: rgba(59, 206, 177, 1);
+    box-shadow: 0 0 5rpx 2rpx #3bceb1;
+}
+.mask.data-v-7ade9d30::after {
+		content: '';
+		width: 0;
+		height: 0;
+		position: absolute;
+		left: 65rpx;
+		bottom: -14rpx;
+		border-top: 15rpx solid rgba(59, 206, 177, 1);
+		border-bottom: 15rpx solid transparent;
+		border-right: 15rpx solid transparent;
+		border-left: 15rpx solid transparent;
+}
+

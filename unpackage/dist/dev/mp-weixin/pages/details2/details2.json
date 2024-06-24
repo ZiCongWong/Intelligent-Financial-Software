@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tabbar2": "/components/tabbar2/tabbar2",
+    "monthchose": "/components/monthchose/monthchose",
+    "chosekind": "/components/chosekind/chosekind"
+  }
+}

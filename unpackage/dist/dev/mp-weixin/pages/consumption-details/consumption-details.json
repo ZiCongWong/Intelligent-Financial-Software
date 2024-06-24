@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#3bceb1",
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "show-consumption": "/components/showConsumption/showConsumption"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="{{['data-v-a9d9a2b8',chose==1?'items move':'items']}}">{{''+text+''}}</view>

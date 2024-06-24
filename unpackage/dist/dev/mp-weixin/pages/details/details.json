@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "chosekind": "/components/chosekind/chosekind",
+    "tabbar": "/components/tabbar/tabbar"
+  }
+}

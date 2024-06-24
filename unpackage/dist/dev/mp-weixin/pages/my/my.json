@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mynav": "/components/mynav/mynav",
+    "tabbar": "/components/tabbar/tabbar",
+    "monthbudget": "/components/monthbudget/monthbudget",
+    "cmdprogress": "/components/cmd-progress/cmd-progress"
+  }
+}

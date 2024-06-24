@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/Launch/Launch",
+    "pages/change-edition/change-edition",
+    "pages/index/index",
+    "pages/details/details",
+    "pages/statistics/statistics",
+    "pages/my/my",
+    "pages/input/input",
+    "pages/manual-entry/manual-entry",
+    "pages/revenue-details/revenue-details",
+    "pages/consumption-details/consumption-details",
+    "pages/concerning/concerning",
+    "pages/index2/index2",
+    "pages/manual-entry2/manual-entry2",
+    "pages/my2/my2",
+    "pages/details2/details2",
+    "pages/account-setting/account-setting",
+    "pages/setting/setting",
+    "pages/clear-data/clear-data",
+    "pages/register/register",
+    "pages/get-certified/get-certified",
+    "pages/forget-setPassword/forget-setPassword",
+    "pages/set-password/set-password",
+    "pages/forget-id/forget-id",
+    "pages/forget-getCertificate/forget-getCertificate",
+    "pages/statistics2/statistics2",
+    "pages/index3/index3",
+    "pages/manual-entry3/manual-entry3",
+    "pages/details3/details3",
+    "pages/my3/my3",
+    "pages/statistics3/statistics3",
+    "pages/save-period/save-period",
+    "pages/set-period/set-period",
+    "pages/income-details/income-details",
+    "pages/confirmbilling/confirmbilling",
+    "pages/Tips-setting/Tips-setting",
+    "pages/binding-phone/binding-phone",
+    "pages/consumption-analysis/consumption-analysis",
+    "pages/Frequently-questions/Frequently-questions",
+    "pages/binding-email/binding-email",
+    "pages/confirmbilling2/confirmbilling2",
+    "pages/confirmbilling3/confirmbilling3",
+    "pages/contactus/contactus",
+    "pages/change-edition2/change-edition2",
+    "pages/export-data/export-data",
+    "pages/email-login/email-login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#f5f6f7"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "black",
+    "selectedColor": "blue",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "text": "明细",
+        "pagePath": "pages/details/details",
+        "iconPath": "static/details.png",
+        "selectedIconPath": "static/details-active.png"
+      },
+      {
+        "text": "统计",
+        "pagePath": "pages/statistics/statistics",
+        "iconPath": "static/statistics.png",
+        "selectedIconPath": "static/statistics-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

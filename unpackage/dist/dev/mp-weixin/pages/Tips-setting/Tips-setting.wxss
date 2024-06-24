@@ -1,0 +1,12 @@
+
+.con {
+	display: flex;
+  padding: 30rpx;
+	align-items: center;
+	justify-content: center;
+}
+.img {
+	/* width: 500rpx; */
+	/* height: 700rpx; */
+}
+

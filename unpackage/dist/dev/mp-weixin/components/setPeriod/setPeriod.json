@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "evan-switch": "/components/evan-switch/evan-switch"
+  }
+}

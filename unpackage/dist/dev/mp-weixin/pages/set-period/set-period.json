@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "周期设置",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "set-period": "/components/setPeriod/setPeriod"
+  }
+}

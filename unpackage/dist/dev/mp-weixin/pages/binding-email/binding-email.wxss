@@ -1,0 +1,129 @@
+
+.con {
+		width: 750rpx;
+		background-color: rgb(255, 247, 226);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* height: 2000rpx; */
+    height: 100vh;
+		opacity: 1;
+		background: linear-gradient(180deg, rgba(189, 242, 232, 1) 0%, rgba(59, 206, 177, 1) 100%);
+}
+.register-back {
+		width: 50rpx;
+		height: 50rpx;
+}
+.topbar {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 65rpx;
+		width: 690rpx;
+		margin-top: 70rpx;
+}
+.title {
+		margin-left: 220rpx;
+		font-size: 36rpx;
+		font-family: "Alibaba_Medium";
+}
+.input-box {
+		width: 530rpx;
+		opacity: 1;
+		border-radius: 40rpx;
+		background: rgba(255, 255, 255, 1);
+		padding: 80rpx;
+		margin-top: 110rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+}
+.input-little1 {
+		display: flex;
+		justify-content: flex-start;
+    align-items: center;
+		border-bottom: 3rpx solid rgba(71, 209, 182, 1);   
+		width: 517rpx;
+		height: 80rpx;
+}
+.input-little1 image {
+    margin-right: 20rpx;
+}
+.input-little1 input {
+    width: 500rpx;
+}
+.input-little2 {
+		display: flex;
+    align-items: center;
+		justify-content: space-between;
+		width: 517rpx;
+		height: 80rpx;
+}
+.input-in-little1 {
+		display: flex;
+    align-items: center;
+		justify-content: flex-start;
+		border-bottom: 3rpx solid rgba(71, 209, 182, 1);
+		width: 320rpx;
+		height: 80rpx;
+}
+.input-in-little1 image {
+    margin-right: 20rpx;
+}
+.get {
+		width: 188rpx;
+		height: 74rpx;
+		border-radius: 10rpx;
+		background: rgba(59, 206, 177, 1);
+		line-height: 74rpx;
+		text-align: center;
+		color: rgba(255, 255, 255, 1);
+}
+.input-in-little2 {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 320rpx;
+		height: 80rpx;
+}
+.input-in-little2 image {
+    margin-right: 20rpx;
+}
+.input-little3 {
+		display: flex;
+    align-items: center;
+		justify-content: space-between;
+		border-bottom: 3rpx solid rgba(71, 209, 182, 1);   
+		width: 517rpx;
+		height: 80rpx;
+}
+input {
+		width: 270rpx;
+		height: 80rpx;
+		border: none;
+}
+.binding {
+		width: 490rpx;
+		height: 132rpx;
+		opacity: 1;
+		border-radius: 90rpx;
+		background: rgba(255, 255, 255, 1);
+		margin-top: 90rpx;
+		line-height: 132rpx;
+		text-align: center;
+		font-size: 44rpx;
+		color: rgba(72, 210, 183, 1);
+}
+image {
+		
+		width: 45rpx;height: 45rpx;
+}
+.tips {
+		color: rgba(71, 209, 182, 1);
+		font-size: 24rpx;
+		width: 517rpx;
+		height: 30rpx;
+    margin-top: 60rpx;
+		text-align: center;
+		line-height: 30rpx;
+}
+

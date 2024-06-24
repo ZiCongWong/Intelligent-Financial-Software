@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+	font-family: "Alibaba_Extra_bold";
+	src: url(/font/Alibaba_PuHuiTi_2.0_95_ExtraBold_95_ExtraBold.ttf);
+}
+@font-face {
+	font-family: "Alibaba_Regular";
+	src: url(/font/Alibaba_PuHuiTi_2.0_55_Regular_55_Regular.ttf);
+}
+@font-face {
+	font-family: "Alibaba_Medium";
+	src: url(/font/Alibaba_PuHuiTi_2.0_65_Medium_65_Medium.ttf);
+}
+@font-face {
+	font-family: "Alibaba_bold";
+	src: url(/font/Alibaba_PuHuiTi_2.0_75_SemiBold_75_SemiBold.ttf);
+}
+page {
+	background: rgba(249, 249, 249, 1.0);
+	color: rgba(51, 51, 51, 1);
+	font-family: "Alibaba_Regular";
+}
+

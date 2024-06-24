@@ -1,0 +1,443 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		 {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true,
+				"app-plus": {
+					"popGesture": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/Launch/Launch",
+			"style": {
+		
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+		
+		}
+		
+		
+		,
+		{
+			"path": "pages/change-edition/change-edition",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" ,//设置自定义导航栏
+        "enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/statistics/statistics",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/input/input",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/manual-entry/manual-entry",
+			"style": {
+				"navigationBarTitleText": "手动录入",
+				"navigationBarBackgroundColor": "#f9f9f9",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/revenue-details/revenue-details",
+			"style": {
+				"navigationBarBackgroundColor": "#3bceb1",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/consumption-details/consumption-details",
+			"style": {
+				"navigationBarBackgroundColor": "#3bceb1",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/concerning/concerning",
+			"style": {
+				"navigationBarTitleText": "关于小绿账本",
+				"enablePullDownRefresh": false,
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#3ccfb1"
+			}
+
+		}, {
+			"path": "pages/index2/index2",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+        "enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/manual-entry2/manual-entry2",
+			"style": {
+				"navigationBarTitleText": "录入",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#3bceb1",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my2/my2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/details2/details2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/account-setting/account-setting",
+			"style": {
+				"navigationBarTitleText": "账号设置",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/clear-data/clear-data",
+			"style": {
+				"navigationBarTitleText": "清除数据",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/get-certified/get-certified",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/forget-setPassword/forget-setPassword",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/set-password/set-password",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/forget-id/forget-id",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+
+		},
+		{
+			"path": "pages/forget-getCertificate/forget-getCertificate",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", //设置自定义导航栏
+				"disableScroll": true
+			}
+
+		}, {
+			"path": "pages/statistics2/statistics2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/index3/index3",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" ,//设置自定义导航栏
+        "enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/manual-entry3/manual-entry3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/details3/details3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/my3/my3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/statistics3/statistics3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/save-period/save-period",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/set-period/set-period",
+			"style": {
+				"navigationBarTitleText": "周期设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/income-details/income-details",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#3bceb1"
+			}
+
+		}, {
+			"path": "pages/confirmbilling/confirmbilling",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/Tips-setting/Tips-setting",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/binding-phone/binding-phone",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/consumption-analysis/consumption-analysis",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/Frequently-questions/Frequently-questions",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/binding-email/binding-email",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/confirmbilling2/confirmbilling2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/confirmbilling3/confirmbilling3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+        "navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/contactus/contactus",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/change-edition2/change-edition2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom" //设置自定义导航栏
+			}
+
+		}, {
+			"path": "pages/export-data/export-data",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "数据导出"
+			}
+
+		}
+
+	    ,{
+            "path" : "pages/email-login/email-login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom" //设置自定义导航栏
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#f5f6f7"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"custom": true,
+		"color": "black",
+		"selectedColor": "blue",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-active.png"
+			},
+			{
+				"text": "明细",
+				"pagePath": "pages/details/details",
+				"iconPath": "static/details.png",
+				"selectedIconPath": "static/details-active.png"
+			},
+			// {
+			//   "text": "",
+			//   "pagePath": "pages/input/input",
+			//   "iconPath": "static/input.png",
+			//   "selectedIconPath": "static/input.png"
+			// },
+			{
+				"text": "统计",
+				"pagePath": "pages/statistics/statistics",
+				"iconPath": "static/statistics.png",
+				"selectedIconPath": "static/statistics-active.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-active.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

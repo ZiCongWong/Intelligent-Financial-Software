@@ -1,0 +1,26 @@
+
+.con {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.big-box {
+	width: 630rpx;
+	height: 479rpx;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 1);
+	padding: 30rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 30rpx;
+}
+.every-colum {
+	display: flex;
+	justify-content: space-between;font-size: 32rpx;
+}
+image {
+	width: 45rpx;
+	height: 45rpx;
+}
+

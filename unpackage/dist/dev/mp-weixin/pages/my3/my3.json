@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mynav": "/components/mynav/mynav",
+    "tabbar3": "/components/tabbar3/tabbar3",
+    "monthbudget": "/components/monthbudget/monthbudget"
+  }
+}

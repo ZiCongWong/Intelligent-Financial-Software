@@ -1,0 +1,109 @@
+
+swiper.data-v-2e45526a {
+    height: 100vh;
+}
+.scl-x.data-v-2e45526a {
+    width: 760rpx;
+}
+.change-item-box.data-v-2e45526a {
+    background-color: #e9f7f7;
+    height: 100vh;
+}
+.change-item-box2.data-v-2e45526a,.change-item-box3.data-v-2e45526a {
+    background-color: #d0f3ea;
+    height: 100vh;
+}
+.change-item-top.data-v-2e45526a {
+    position: relative;
+    overflow: hidden;
+}
+.path.data-v-2e45526a {
+  width: 1000rpx;
+  margin-left: -180rpx;
+  height: 780rpx;
+}
+.path2.data-v-2e45526a {
+  width: 1000rpx;
+  margin-left: -180rpx;
+  height: 780rpx;
+  background-color: #e9f7f7;
+}
+.ben.data-v-2e45526a,.ben2.data-v-2e45526a,.ben3.data-v-2e45526a {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 100rpx;
+  width: 570rpx;
+  height: 650rpx;
+}
+.ben.data-v-2e45526a {
+  top: 50rpx;
+}
+.ben2.data-v-2e45526a {
+  left: 53%;
+  top: 0;
+}
+.ben3.data-v-2e45526a {
+  left: 54%;
+  top: 35rpx;
+}
+.body1.data-v-2e45526a {
+  width: 450rpx;
+  margin: 20rpx auto;
+}
+.body.data-v-2e45526a {
+  width: 450rpx;
+  margin: 20rpx 80rpx;
+}
+.ben2-bot .title.data-v-2e45526a {
+  margin-top: 40rpx;
+}
+.body1 .title1.data-v-2e45526a,.body .title.data-v-2e45526a {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.title1.data-v-2e45526a {
+  text-align: center;
+}
+.samll-p1.data-v-2e45526a {
+  text-align: center;
+}
+.body1 .samll-p1.data-v-2e45526a,.body .samll-p.data-v-2e45526a {
+  margin-top: 40rpx;
+  font-size: 28rpx;
+}
+.bot.data-v-2e45526a {
+  width: 600rpx;
+  margin: 100rpx auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bot-left.data-v-2e45526a {
+  width: 220rpx;
+  height: 75rpx;
+  text-align: center;
+  line-height: 75rpx;
+  color: #fff;
+  background-color: #4fc8a5;
+  border-radius: 40rpx;
+}
+.bot-right.data-v-2e45526a {
+  display: flex;
+  justify-content: space-between;
+  width: 100rpx;
+}
+.dot.data-v-2e45526a {
+  width: 20rpx;
+  height: 20rpx;
+  background-color: #cddcd9;
+  border-radius: 50%;
+}
+.active.data-v-2e45526a {
+  background-color: #4fc8a5;
+}
+.ben2-bot.data-v-2e45526a {
+  background-color: #d0f3ea;
+}
+

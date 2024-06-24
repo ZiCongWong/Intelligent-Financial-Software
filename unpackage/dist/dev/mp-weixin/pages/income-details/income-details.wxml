@@ -1,0 +1,1 @@
+<view><view class="main"><show-revenue class="details" vue-id="1af550c0-1" billsId="{{billsId}}" count="{{count}}" imgurl="{{imgurl}}" merchants="{{merchants}}" method="{{method}}" note="{{note}}" time="{{time}}" type="{{type}}" picture="{{picture}}" bind:__l="__l"></show-revenue></view></view>

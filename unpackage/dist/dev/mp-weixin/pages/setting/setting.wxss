@@ -1,0 +1,45 @@
+
+.main {
+	width: 750rpx;
+	height: 1400rpx;
+}
+.box-top {
+	width: 690rpx;
+	height: 216rpx;
+	margin: 40rpx 30rpx 0 30rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 20rpx;
+}
+.box {
+	width: 690rpx;
+	height: 216rpx;
+	margin: 50rpx 30rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 20rpx;
+}
+.setting {
+	display: flex;
+	justify-content: space-between;
+	padding: 32rpx 30rpx;
+}
+image {
+	width: 44rpx;
+	height: 44rpx;
+}
+.text {
+	color: rgba(21, 21, 21, 1.0);
+}
+.box-button {
+	width: 690rpx;
+	height: 112rpx;
+	margin: 50rpx 30rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 20rpx;
+	line-height: 112rpx;
+	display: flex;
+	justify-content: center;
+}
+.button {
+	color: rgba(59, 206, 177, 1);
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#3bceb1",
+  "usingComponents": {
+    "show-revenue": "/components/showRevenue/showRevenue"
+  }
+}

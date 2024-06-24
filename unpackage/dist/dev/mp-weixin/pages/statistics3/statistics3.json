@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "colhead": "/components/colhead/colhead",
+    "tabbar3": "/components/tabbar3/tabbar3",
+    "banel-old": "/components/banelOld/banelOld",
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts",
+    "itemsprocess": "/components/itemsprocess/itemsprocess"
+  }
+}

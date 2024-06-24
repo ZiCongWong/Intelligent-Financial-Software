@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar",
+    "navhead": "/components/navhead/navhead",
+    "process": "/components/process/process",
+    "banel": "/components/banel/banel"
+  }
+}
